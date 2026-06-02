@@ -11,7 +11,7 @@ Choose language / زبان را انتخاب کنید:
 
 Generate clean, annotated trapezoid section drawings from an Excel sheet and export them as a multi-page PDF. The project is designed for practical engineering and drafting workflows where many sections must be plotted quickly, consistently, and with readable dimensions.
 
-This tool reads section data from Excel, draws each section as a dynamically scaled trapezoid, adds key annotations such as top width, bottom width, height, width at 2 m, GL, and FL, then places the drawings into a paginated PDF layout. The repository can include both the Python source and a standalone Windows `.exe`, so users can run it either with Python installed or as a simple desktop application.
+This tool reads section data from Excel, draws each section as a dynamically scaled trapezoid, adds key annotations such as top width, bottom width, height, width at 2 m, GL, and FL, then places the drawings into a paginated PDF layout. The repository include both the Python source and a standalone Windows `.exe`, so users can run it either with Python installed or as a simple desktop application.
 
 ## What it does
 
@@ -130,7 +130,7 @@ This project was created to automate section drawing generation from Excel input
 
 این ابزار برای تولید خودکار ترسیم مقاطع ذوزنقه‌ای از فایل اکسل و خروجی گرفتن به صورت PDF چندصفحه‌ای ساخته شده است. هدف پروژه این است که برای کارهای مهندسی و ترسیم، بتوان تعداد زیادی مقطع را سریع، منظم و با اندازه‌گذاری خوانا تولید کرد.
 
-این برنامه داده‌های مقاطع را از اکسل می‌خواند، هر مقطع را به صورت یک ذوزنقه با مقیاس هندسی رسم می‌کند، و سپس برچسب‌هایی مانند عرض بالا، عرض پایین، ارتفاع، عرض در ۲ متر از بالا، GL و FL را اضافه می‌کند. در نهایت، همه ترسیم‌ها را در قالب یک PDF صفحه‌بندی‌شده ذخیره می‌کند. این مخزن می‌تواند هم شامل کد پایتون و هم یک فایل اجرایی مستقل ویندوزی `.exe` باشد تا کاربران بدون نصب پایتون هم بتوانند از آن استفاده کنند.
+این برنامه داده‌های مقاطع را از اکسل می‌خواند، هر مقطع را به صورت یک ذوزنقه با مقیاس هندسی رسم می‌کند، و سپس برچسب‌هایی مانند عرض بالا، عرض پایین، ارتفاع، عرض در ۲ متر از بالا، GL و FL را اضافه می‌کند. در نهایت، همه ترسیم‌ها را در قالب یک PDF صفحه‌بندی‌شده ذخیره می‌کند. این مخزن هم شامل کد پایتون و هم یک فایل اجرایی مستقل ویندوزی `.exe` باشد تا کاربران بدون نصب پایتون هم بتوانند از آن استفاده کنند.
 
 ### چه کاری انجام می‌دهد
 
