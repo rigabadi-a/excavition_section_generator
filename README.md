@@ -13,6 +13,10 @@ Generate clean, annotated trapezoid section drawings from an Excel sheet and exp
 
 This tool reads section data from Excel, draws each section as a dynamically scaled trapezoid, adds key annotations such as top width, bottom width, height, width at 2 m, GL, and FL, then places the drawings into a paginated PDF layout. The repository include both the Python source and a standalone Windows `.exe`, so users can run it either with Python installed or as a simple desktop application.
 
+## Download
+
+[Download the Windows `.exe`](https://github.com/rigabadi-a/excavition_section_generator/releases/download/v1.0.0/sec2.exe)
+
 ## What it does
 
 - Reads section data from an Excel workbook.
@@ -119,7 +123,6 @@ This project is useful anywhere repeated trapezoidal or section-style plots need
 - The current plotting logic is tailored to the source workbook convention where plotted `B1` and `B2` are swapped from the spreadsheet columns.
 - The sample script uses Windows-friendly GUI behavior and optional DPI awareness settings for sharper display on Windows systems.
 
-
 ## Credits
 
 This project was created to automate section drawing generation from Excel input into paginated PDF sheets, with both Python-source and standalone-desktop usage in mind.
@@ -131,6 +134,10 @@ This project was created to automate section drawing generation from Excel input
 این ابزار برای تولید خودکار ترسیم مقاطع ذوزنقه‌ای از فایل اکسل و خروجی گرفتن به صورت PDF چندصفحه‌ای ساخته شده است. هدف پروژه این است که برای کارهای مهندسی و ترسیم، بتوان تعداد زیادی مقطع را سریع، منظم و با اندازه‌گذاری خوانا تولید کرد.
 
 این برنامه داده‌های مقاطع را از اکسل می‌خواند، هر مقطع را به صورت یک ذوزنقه با مقیاس هندسی رسم می‌کند، و سپس برچسب‌هایی مانند عرض بالا، عرض پایین، ارتفاع، عرض در ۲ متر از بالا، GL و FL را اضافه می‌کند. در نهایت، همه ترسیم‌ها را در قالب یک PDF صفحه‌بندی‌شده ذخیره می‌کند. این مخزن هم شامل کد پایتون و هم یک فایل اجرایی مستقل ویندوزی `.exe` باشد تا کاربران بدون نصب پایتون هم بتوانند از آن استفاده کنند.
+
+## دانلود
+
+[دانلود فایل اجرایی ویندوز `.exe`](https://github.com/rigabadi-a/excavition_section_generator/releases/download/v1.0.0/sec2.exe)
 
 ### چه کاری انجام می‌دهد
 
@@ -237,7 +244,6 @@ python sec2.py
 - مقادیر `GL` و `FL` به صورت عددی و با دو رقم اعشار نمایش داده می‌شوند؛ بنابراین اگر مقدار متنی وارد شود، ممکن است نیاز به تغییر کد باشد.
 - منطق فعلی ترسیم بر اساس همان ساختار فایل اکسل تنظیم شده است که در آن `B1` و `B2` در هنگام رسم جابه‌جا می‌شوند.
 - اسکریپت نمونه برای ویندوز نوشته شده و برای نمایش بهتر روی ویندوز از تنظیمات اختیاری DPI نیز پشتیبانی می‌کند.
-
 
 ### درباره پروژه
 
